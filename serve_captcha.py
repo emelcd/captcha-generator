@@ -6,7 +6,7 @@ import json
 import pymongo
 import shutil
 
-connect = pymongo.MongoClient("localhost", 27017)
+connect = pymongo.MongoClient("192.168.122.132", 27017)
 db = connect.captcha
 collection = db.captcha
 
